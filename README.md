@@ -9,16 +9,16 @@
 
 
 ## Setup
-Requirements include access or knowledge of companys' stock exchange tickers
+Requirements include access or knowledge of companys' stock exchange tickers. 
 I suggest using Yahoo Finance
 
 
 
 ## Usage
-Create a CSV file named BETAS and vertically list the companys' tickers
+Create a CSV file named BETAS and vertically list the companys' tickers. 
 Be sure to have your directory set correctly
 
-# Read the betas file.  It is read into a data frame
+## Read the betas file.  It is read into a data frame
 betasFile <- read.csv("betas.csv",header=TRUE)
 
 
